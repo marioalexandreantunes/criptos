@@ -17,7 +17,7 @@ A criação do primeiro blockchain é atribuída aos cientistas da computação 
 3. Embora tenham criado o conceito inicial, a patente de Haber e Stornetta expirou em 2004 sem ser amplamente utilizada.
 4. O conceito evoluiu significativamente em 2008, quando Satoshi Nakamoto publicou o whitepaper do Bitcoin, aplicando a tecnologia blockchain para criar uma criptomoeda descentralizada.
 
-É importante notar que, embora Satoshi Nakamoto seja frequentemente associado à criação do blockchain devido à sua aplicação no Bitcoin, o conceito fundamental foi desenvolvido anos antes por Haber e Stornetta.
+É importante notar que, embora **Satoshi Nakamoto** seja frequentemente associado à criação do blockchain devido à sua aplicação no Bitcoin, o conceito fundamental foi desenvolvido anos antes por Haber e Stornetta.
 
 ## Codigo
 
@@ -45,7 +45,8 @@ Uma criptomoeda é uma forma de dinheiro digital que funciona de maneira diferen
 Em resumo, uma criptomoeda é um tipo de dinheiro que existe apenas no mundo digital, protegido por códigos complexos, onde todas as transações são registadas num livro público que todos podem ver, mas ninguém pode alterar facilmente.
 
 Quando uma criptomoeda é criada, inicialmente ela não tem valor intrínseco. 
-**O processo de ganhar valor é gradual e depende de vários fatores. Vou explicar usando algumas analogias:**
+
+$\color{red}\large{\textsf{O processo de ganhar valor é gradual e depende de vários fatores. Vou explicar usando algumas analogias:}}$ 
 
 1. Como um novo jogo:
    Imagine que cria um novo jogo de cartas. No início, só você conhece as regras e tem as cartas. Não tem valor para ninguém além de si.
@@ -62,7 +63,7 @@ No caso das criptomoedas, o valor inicial muitas vezes vem dos criadores e prime
 
 É importante lembrar que nem todas as criptomoedas ganham valor significativo, e muitas acabam por falhar ou perder todo o seu valor ao longo do tempo.
 
-**Uma criptomoeda ganha valor através de vários fatores interligados:**
+$\color{red}\large{\textsf{Uma criptomoeda ganha valor através de vários fatores interligados:}}$ 
 
 1. Procura e oferta: Tal como qualquer bem, o valor de uma criptomoeda é influenciado pela lei da oferta e da procura. Quando há mais pessoas a querer comprar do que a vender, o preço sobe.
 2. Utilidade: Quanto mais útil for uma criptomoeda, seja para transações, contratos inteligentes ou outras aplicações, mais valor tende a ter.
@@ -73,7 +74,7 @@ No caso das criptomoedas, o valor inicial muitas vezes vem dos criadores e prime
 7. Regulamentação: As políticas governamentais e regulamentações podem influenciar positiva ou negativamente o valor das criptomoedas.
 8. Capitalização de mercado: Este indicador, calculado multiplicando o preço pelo número de moedas em circulação, é frequentemente usado para comparar o valor relativo entre diferentes criptomoedas.
 
-**Algumas criptomoedas ganharam valor significativo após a adoção de blockchain em transações em certos países:**
+$\color{red}\large{\textsf{Algumas criptomoedas ganharam valor significativo após a adoção de blockchain em transações em certos países:}}$ 
 
 1. Bitcoin (BTC): Registou uma valorização de 137% em 2024, atingindo US$ 101.711. A sua adoção como moeda legal em El Salvador em 2021 contribuiu para este crescimento.
 2. Ethereum (ETH): Valorizou 63,47% em 2024, chegando a US$ 3.279[8]. O seu uso em contratos inteligentes e aplicações descentralizadas em vários países impulsionou este aumento.
@@ -81,8 +82,7 @@ No caso das criptomoedas, o valor inicial muitas vezes vem dos criadores e prime
 4. Solana (SOL): Registou um aumento de 122,34% em 2024, chegando a US$ 225,71. A sua adoção em países como os Emirados Árabes Unidos para projetos de blockchain governamentais impulsionou o seu valor.
 5. BNB: Valorizou 119,83% em 2024, atingindo US$ 686,71. A sua utilização na Binance Smart Chain e em projetos DeFi em vários países asiáticos contribuiu para este aumento.
 
-É importante notar que estas valorizações são influenciadas por múltiplos fatores, não apenas pela adoção em países específicos.
-É importante notar que o mercado de criptomoedas é altamente volátil, e os valores podem flutuar significativamente num curto espaço de tempo.
+É importante notar que estas valorizações são influenciadas por múltiplos fatores, não apenas pela adoção em países específicos, e o mercado de criptomoedas é altamente volátil, e os valores podem flutuar significativamente num curto espaço de tempo.
 
 ## Tipos de moedas digitais
 
@@ -156,9 +156,8 @@ Principais diferenças:
 ## Exemplos
 
 
-$\color{lightblue}{\textrm{Red Nimetaga 3 kõige suuremat pilveteenuste pakkujat}}$ 
+$\color{red}\large{\textsf{Tipos de moedas digitais e criptomoedas:}}$ 
 
-Tipos de moedas digitais e criptomoedas:
 
 1. Criptomoedas tradicionais:
 - Bitcoin
