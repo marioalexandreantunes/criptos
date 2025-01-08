@@ -10,7 +10,7 @@ O blockchain é como um livro-razão (livro que agrupa, por contas, os lançamen
 Esta tecnologia permite que as pessoas façam transações diretamente entre si, sem precisar de um banco ou outro intermediário. É como trocar cromos no recreio da escola, mas de uma forma que toda a gente pode ver e ninguém pode fazer batota.
 A criação do primeiro blockchain é atribuída aos cientistas da computação Stuart Haber e W. Scott Stornetta em 1991. Eles desenvolveram um sistema que permitia registrar a data e hora de documentos digitais de forma que não pudessem ser alterados.
 
-Principais pontos sobre a criação do blockchain:
+## Principais pontos sobre a criação do blockchain:
 
 1. Haber e Stornetta idealizaram uma solução computacional para registrar datas em documentos digitais de modo imutável.
 2. Em 1992, eles aprimoraram o sistema incorporando as árvores Merkle, permitindo armazenar vários documentos em um único bloco.
@@ -18,6 +18,8 @@ Principais pontos sobre a criação do blockchain:
 4. O conceito evoluiu significativamente em 2008, quando Satoshi Nakamoto publicou o whitepaper do Bitcoin, aplicando a tecnologia blockchain para criar uma criptomoeda descentralizada.
 
 É importante notar que, embora Satoshi Nakamoto seja frequentemente associado à criação do blockchain devido à sua aplicação no Bitcoin, o conceito fundamental foi desenvolvido anos antes por Haber e Stornetta.
+
+## Codigo
 
 Para ver o código de um blockchain, pode aceder a vários repositórios de código aberto disponíveis no GitHub. Eis algumas opções populares:
 
