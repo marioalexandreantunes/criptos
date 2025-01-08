@@ -155,7 +155,10 @@ Principais diferenças:
 
 ## Exemplos
 
-${\color{red}Tipos de moedas digitais e criptomoedas:$
+
+$\color{lightblue}{\textrm{Red Nimetaga 3 kõige suuremat pilveteenuste pakkujat}}$ 
+
+Tipos de moedas digitais e criptomoedas:
 
 1. Criptomoedas tradicionais:
 - Bitcoin
@@ -165,39 +168,39 @@ ${\color{red}Tipos de moedas digitais e criptomoedas:$
 - Solana
 - BNB
 
-2. Memecoins:
+1. Memecoins:
 - Dogecoin
 - Shiba Inu
 - SafeMoon
 
-3. Utility tokens:
+1. Utility tokens:
 - Tokens para acesso a serviços específicos dentro de plataformas blockchain
 
-4. Security tokens:
+1. Security tokens:
 - Representam ativos financeiros tradicionais digitalizados
 
-5. Governance tokens:
+1. Governance tokens:
 - Permitem participação em decisões de projetos blockchain
 
-6. Privacy coins:
+1. Privacy coins:
 - Monero
 - Zcash
 - Dash
 
-7. Criptomoedas de IA:
+1. Criptomoedas de IA:
 - Fetch.ai
 - SingularityNET
 - Render Token
 
-8. Nanocoins:
+1. Nanocoins:
 - Moedas com valores unitários muito baixos
 
-9. Criptos de Games e Metaverso:
+1. Criptos de Games e Metaverso:
 - Axie Infinity
 - Decentraland
 - The Sandbox
 
-10. DeFi tokens:
+1.  DeFi tokens:
 - Uniswap
 - Aave
 - Compound
