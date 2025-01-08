@@ -155,7 +155,7 @@ Principais diferenças:
 
 ## Exemplos
 
-$${\color{red}Tipos de moedas digitais e criptomoedas:$$
+${\color{red}Tipos de moedas digitais e criptomoedas:$
 
 1. Criptomoedas tradicionais:
 - Bitcoin
