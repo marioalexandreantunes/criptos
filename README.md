@@ -1,4 +1,4 @@
-# Blockchain
+# $\color{Orange}{\textsf{Blockchain}}$
 
 O blockchain é como um livro-razão (livro que agrupa, por contas, os lançamentos registados no livro-diário; razão), que não pode ser alterado. Imagine uma longa cadeia, onde cada elo representa uma transação ou informação. Esta cadeia é especial porque:
 
@@ -10,7 +10,7 @@ O blockchain é como um livro-razão (livro que agrupa, por contas, os lançamen
 Esta tecnologia permite que as pessoas façam transações diretamente entre si, sem precisar de um banco ou outro intermediário. É como trocar cromos no recreio da escola, mas de uma forma que toda a gente pode ver e ninguém pode fazer batota.
 A criação do primeiro blockchain é atribuída aos cientistas da computação Stuart Haber e W. Scott Stornetta em 1991. Eles desenvolveram um sistema que permitia registrar a data e hora de documentos digitais de forma que não pudessem ser alterados.
 
-## Principais pontos sobre a criação do blockchain:
+### $\color{Yellow}{\textsf{Principais pontos sobre a criação do blockchain:}}$
 
 1. Haber e Stornetta idealizaram uma solução computacional para registrar datas em documentos digitais de modo imutável.
 2. Em 1992, eles aprimoraram o sistema incorporando as árvores Merkle, permitindo armazenar vários documentos em um único bloco.
@@ -19,7 +19,7 @@ A criação do primeiro blockchain é atribuída aos cientistas da computação 
 
 É importante notar que, embora **Satoshi Nakamoto** seja frequentemente associado à criação do blockchain devido à sua aplicação no Bitcoin, o conceito fundamental foi desenvolvido anos antes por Haber e Stornetta.
 
-## Codigo
+### $\color{Yellow}{\textsf{Codigo:}}$
 
 Para ver o código de um blockchain, pode aceder a vários repositórios de código aberto disponíveis no GitHub. Eis algumas opções populares:
 
@@ -31,7 +31,24 @@ Para ver o código de um blockchain, pode aceder a vários repositórios de cód
 
 Para aceder a estes códigos, basta visitar os respetivos repositórios no GitHub e explorar os ficheiros disponíveis. Isto permite-lhe não só ver o código, mas também potencialmente contribuir para o seu desenvolvimento, se assim o desejar.
 
-# Criptomoedas
+### $\color{Yellow}{\textsf{Uso:}}$ 
+
+A tecnologia blockchain está a ser cada vez mais integrada no nosso quotidiano, oferecendo soluções inovadoras em diversos setores. Eis alguns exemplos atuais do uso de blockchain no dia-a-dia:
+
+1. Pagamentos e transações financeiras: Criptomoedas como Bitcoin e Ethereum permitem transferências rápidas e seguras, eliminando intermediários.
+2. Rastreabilidade de produtos alimentares: O Walmart utiliza blockchain para rastrear a origem e o percurso de produtos alimentares, garantindo a segurança alimentar.
+3. Registos médicos: Sistemas baseados em blockchain melhoram a integração entre prestadores de saúde, garantindo precisão e acessibilidade dos dados dos pacientes.
+4. Programas de fidelidade: Empresas de viagens e lazer utilizam blockchain para criar programas de recompensas mais eficientes.
+5. Proteção de direitos autorais: Músicos e artistas usam blockchain para garantir royalties quando as suas obras são utilizadas.
+6. Cadeias de fornecimento: Empresas monitorizam cada etapa da produção e distribuição, garantindo autenticidade e reduzindo contrafações.
+7. NFTs no entretenimento: Artistas, músicos e equipas desportivas utilizam NFTs para aumentar o envolvimento dos fãs e oferecer experiências únicas.
+8. Pagamentos quotidianos: Em alguns países, já é possível pagar por uma caneca de cerveja na Oktoberfest na Alemanha, alugar uma bicicleta na Holanda, pagar por hospedagem na Suíça e comprar passagens aéreas no Japão utilizando criptoativos.
+9. Gestão de identidade digital: Permite aos utilizadores controlar os seus dados pessoais, fornecendo verificação de identidade segura para diversos serviços.
+10. Contratos inteligentes: Utilizados em setores como seguros, imobiliário e entretenimento para gerir e executar contratos automaticamente.
+
+Estes exemplos demonstram como a blockchain está a transformar diversos aspetos da nossa vida quotidiana, desde transações financeiras até à gestão de saúde e entretenimento.
+
+# $\color{Orange}{\textsf{Criptomoedas}}$
 
 Uma criptomoeda é uma forma de dinheiro digital que funciona de maneira diferente do dinheiro tradicional. Vou explicar-lhe usando algumas analogias para facilitar a compreensão:
 
@@ -77,14 +94,14 @@ $\color{red}\large{\textsf{Uma criptomoeda ganha valor através de vários fator
 $\color{red}\large{\textsf{Algumas criptomoedas ganharam valor significativo após a adoção de blockchain em transações em certos países:}}$ 
 
 1. Bitcoin (BTC): Registou uma valorização de 137% em 2024, atingindo US$ 101.711. A sua adoção como moeda legal em El Salvador em 2021 contribuiu para este crescimento.
-2. Ethereum (ETH): Valorizou 63,47% em 2024, chegando a US$ 3.279[8]. O seu uso em contratos inteligentes e aplicações descentralizadas em vários países impulsionou este aumento.
+2. Ethereum (ETH): Valorizou 63,47% em 2024, chegando a US$ 3.279. O seu uso em contratos inteligentes e aplicações descentralizadas em vários países impulsionou este aumento.
 3. XRP: Apresentou uma valorização impressionante de 284,8% em 2024, alcançando US$ 2,36. A sua utilização em sistemas de pagamentos transfronteiriços em países como o Japão e as Filipinas contribuiu para este crescimento.
 4. Solana (SOL): Registou um aumento de 122,34% em 2024, chegando a US$ 225,71. A sua adoção em países como os Emirados Árabes Unidos para projetos de blockchain governamentais impulsionou o seu valor.
 5. BNB: Valorizou 119,83% em 2024, atingindo US$ 686,71. A sua utilização na Binance Smart Chain e em projetos DeFi em vários países asiáticos contribuiu para este aumento.
 
 É importante notar que estas valorizações são influenciadas por múltiplos fatores, não apenas pela adoção em países específicos, e o mercado de criptomoedas é altamente volátil, e os valores podem flutuar significativamente num curto espaço de tempo.
 
-## Tipos de moedas digitais
+## $\color{Yellow}{\textsf{Tipos de moedas digitais}}$
 
 Outros tipos de moedas digitais e criptomoedas além das já mencionadas. Alguns tipos adicionais incluem:
 
@@ -100,7 +117,7 @@ Outros tipos de moedas digitais e criptomoedas além das já mencionadas. Alguns
 
 Cada tipo de criptomoeda ou token digital tem características e usos específicos, contribuindo para a diversidade e complexidade do ecossistema cripto.
 
-## Como Criar uma criptomoeda
+## $\color{Yellow}{\textsf{Como Criar uma criptomoeda}}$
 
 Para criar uma criptomoeda, é necessário seguir vários passos importantes:
 
@@ -132,7 +149,7 @@ Lembre-se que criar uma criptomoeda é um processo complexo que requer conhecime
 
 ** deixa de ser uma criptomoeda e passa a ser um token.
 
-## Criptomoeda vs Token
+## $\color{Yellow}{\textsf{Criptomoeda vs Token}}$
 
 Distinção fundamental entre criptomoedas e tokens:
 
@@ -148,12 +165,12 @@ Principais diferenças:
 
 - Complexidade: Criar uma criptomoeda é mais complexo, pois requer desenvolver uma nova blockchain
 - Funcionalidade: Criptomoedas são principalmente usadas para transações, enquanto tokens podem ter várias funções (utilidade, governança, segurança)
-- Tecnologia: Criptomoedas têm sua própria infraestrutura blockchain, tokens usam blockchains existentes[2]
+- Tecnologia: Criptomoedas têm sua própria infraestrutura blockchain, tokens usam blockchains existentes
 
 É importante notar que, embora esta seja a distinção geral, existem exceções e o ecossistema cripto está em constante evolução.
 
 
-## Exemplos
+## $\color{Yellow}{\textsf{Exemplos}}$
 
 
 $\color{red}\large{\textsf{Tipos de moedas digitais e criptomoedas:}}$ 
@@ -167,39 +184,106 @@ $\color{red}\large{\textsf{Tipos de moedas digitais e criptomoedas:}}$
 - Solana
 - BNB
 
-1. Memecoins:
+2. Memecoins:
 - Dogecoin
 - Shiba Inu
 - SafeMoon
 
-1. Utility tokens:
+3. Utility tokens:
 - Tokens para acesso a serviços específicos dentro de plataformas blockchain
 
-1. Security tokens:
+4. Security tokens:
 - Representam ativos financeiros tradicionais digitalizados
 
-1. Governance tokens:
+5. Governance tokens:
 - Permitem participação em decisões de projetos blockchain
 
-1. Privacy coins:
+6. Privacy coins:
 - Monero
 - Zcash
 - Dash
 
-1. Criptomoedas de IA:
+7. Criptomoedas de IA:
 - Fetch.ai
 - SingularityNET
 - Render Token
 
-1. Nanocoins:
+8. Nanocoins:
 - Moedas com valores unitários muito baixos
 
-1. Criptos de Games e Metaverso:
+9. Criptos de Games e Metaverso:
 - Axie Infinity
 - Decentraland
 - The Sandbox
 
-1.  DeFi tokens:
+10.  DeFi tokens:
 - Uniswap
 - Aave
 - Compound
+
+## $\color{Yellow}{\textsf{Perguntas e Respostas}}$
+
+#### $\textcolor{Yellow}{\textsf{Uma criptomoeda é um item digital, e que esse item pode ser adquirido numa corretora convertendo FIAT nesse item?}}$
+
+Sim. Vou explicar em mais detalhe:
+
+1. Item virtual (digital): Uma criptomoeda é, de facto, um ativo totalmente digital. Não existe fisicamente, apenas como informação numa rede blockchain.
+2. Pode ter valor ou não: O valor de uma criptomoeda é determinado pelo mercado, baseado na oferta e procura. Algumas têm um valor significativo, enquanto outras podem ter pouco ou nenhum valor.
+3. Aquisição numa corretora: As corretoras de criptomoedas (também chamadas de exchanges) são plataformas onde se pode comprar, vender e trocar criptomoedas.
+4. Conversão de FIAT: FIAT refere-se a moedas tradicionais emitidas por governos (como o euro ou o dólar). Nas corretoras, pode-se trocar FIAT por criptomoedas.
+5. Processo de aquisição:
+   - Criar uma conta numa corretora
+   - Depositar dinheiro FIAT na conta
+   - Usar esse dinheiro para comprar a criptomoeda desejada
+
+É importante notar que, embora este seja o método mais comum, existem outras formas de adquirir criptomoedas, como mineração ou recebendo como pagamento por bens ou serviços.
+
+#### $\textcolor{Yellow}{\textsf{Como funciona o processo de mineração de criptomoedas e qual é a sua importância?}}$
+
+O processo de mineração de criptomoedas funciona da seguinte forma:
+
+1. Validação de transações: Os mineradores verificam e agrupam transações recentes em blocos.
+2. Resolução de problemas matemáticos: Utilizam poder computacional para resolver complexos puzzles criptográficos associados a cada bloco.
+3. Competição: Mineradores competem entre si para encontrar primeiro a solução válida para o bloco atual.
+4. Adição à blockchain: O primeiro minerador a resolver o puzzle pode adicionar o novo bloco à cadeia de blocos.
+5. Recompensa: O minerador bem-sucedido recebe uma quantidade específica de criptomoedas como recompensa.
+
+A importância da mineração de criptomoedas inclui:
+
+1. Segurança da rede: Protege contra falsas transações e ataques.
+2. Descentralização: Promove a distribuição de novas moedas sem uma autoridade central.
+3. Validação de transações: Garante a integridade e autenticidade das operações na rede.
+4. Emissão controlada: Regula a criação de novas unidades de criptomoeda.
+5. Manutenção da blockchain: Assegura o funcionamento contínuo e seguro do sistema.
+
+A mineração é, portanto, fundamental para o funcionamento, segurança e expansão das redes de criptomoedas baseadas em proof of work.
+
+#### $\textcolor{Yellow}{\textsf{Quais são os principais fatores que influenciam o valor e a volatilidade das criptomoedas?}}$
+
+Os principais fatores que influenciam o valor e a volatilidade das criptomoedas são:
+
+1. Lei da oferta e da procura: É o fator mais fundamental, onde maior procura tende a aumentar o preço, enquanto menor procura o reduz.
+2. Aceitação e adoção do mercado: Quanto mais uma criptomoeda é aceite e utilizada, maior tende a ser o seu valor.
+3. Desenvolvimento tecnológico: Avanços na tecnologia subjacente podem influenciar positivamente o valor da criptomoeda.
+4. Contexto económico e político: Crises económicas, desvalorização de moedas fiduciárias e políticas governamentais podem afetar o valor das criptomoedas.
+5. Eventos globais: Conflitos, desastres naturais e pandemias podem gerar incerteza e volatilidade no mercado.
+6. Especulação e comportamento dos investidores: A perceção e as ações de grandes investidores podem causar oscilações significativas.
+7. Concentração de ativos: Um mercado concentrado em poucas mãos torna-se mais suscetível a grandes oscilações.
+8. Novidade do mercado: Por ser um mercado emergente, ainda gera especulação e desconfiança, contribuindo para a volatilidade.
+9. Regulamentação: Mudanças nas políticas governamentais e regulamentações podem impactar significativamente o valor das criptomoedas.
+
+Estes fatores interagem de forma complexa, contribuindo para a conhecida volatilidade do mercado de criptomoedas.
+
+#### $\textcolor{Yellow}{\textsf{Que valor em euros existe investidos nas criptomoedas?}}$
+
+Não há dados específicos sobre o valor total em euros investido em criptomoedas. Os resultados focam principalmente em previsões de preços e recomendações de investimento para 2025, mas não mencionam um valor total investido no mercado de criptomoedas em euros.
+No entanto, algumas informações relevantes sobre o mercado de criptomoedas incluem:
+
+1. O Bitcoin registou uma subida de 150% em 2024.
+2. Analistas preveem que o Bitcoin pode atingir entre $200.000 (193.000 euros) e $250.000 (241.000 euros) em 2025.
+3. Espera-se que o valor total de mercado das criptomoedas atinja $\textcolor{red}{\textsf{10 trilhões dolares em 2025}}$.
+4. O valor de mercado das stablecoins pode chegar a $\textcolor{red}{\textsf{400 bilhões de dolares em 2025}}$.
+
+Estas projeções indicam um crescimento significativo no mercado de criptomoedas, mas não fornecem um valor específico em euros atualmente investido.
+
+
