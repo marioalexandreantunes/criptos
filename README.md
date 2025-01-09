@@ -10,7 +10,7 @@ O blockchain é como um livro-razão (livro que agrupa, por contas, os lançamen
 Esta tecnologia permite que as pessoas façam transações diretamente entre si, sem precisar de um banco ou outro intermediário. É como trocar cromos no recreio da escola, mas de uma forma que toda a gente pode ver e ninguém pode fazer batota.
 A criação do primeiro blockchain é atribuída aos cientistas da computação Stuart Haber e W. Scott Stornetta em 1991. Eles desenvolveram um sistema que permitia registrar a data e hora de documentos digitais de forma que não pudessem ser alterados.
 
-### $\color{Yellow}{\textsf{Principais pontos sobre a criação do blockchain:}}$
+### $\color{Cyan}{\textsf{Principais pontos sobre a criação do blockchain:}}$
 
 1. Haber e Stornetta idealizaram uma solução computacional para registrar datas em documentos digitais de modo imutável.
 2. Em 1992, eles aprimoraram o sistema incorporando as árvores Merkle, permitindo armazenar vários documentos em um único bloco.
@@ -19,7 +19,7 @@ A criação do primeiro blockchain é atribuída aos cientistas da computação 
 
 É importante notar que, embora **Satoshi Nakamoto** seja frequentemente associado à criação do blockchain devido à sua aplicação no Bitcoin, o conceito fundamental foi desenvolvido anos antes por Haber e Stornetta.
 
-### $\color{Yellow}{\textsf{Codigo:}}$
+### $\color{Cyan}{\textsf{Codigo:}}$
 
 Para ver o código de um blockchain, pode aceder a vários repositórios de código aberto disponíveis no GitHub. Eis algumas opções populares:
 
@@ -31,7 +31,7 @@ Para ver o código de um blockchain, pode aceder a vários repositórios de cód
 
 Para aceder a estes códigos, basta visitar os respetivos repositórios no GitHub e explorar os ficheiros disponíveis. Isto permite-lhe não só ver o código, mas também potencialmente contribuir para o seu desenvolvimento, se assim o desejar.
 
-### $\color{Yellow}{\textsf{Uso:}}$ 
+### $\color{Cyan}{\textsf{Uso:}}$ 
 
 A tecnologia blockchain está a ser cada vez mais integrada no nosso quotidiano, oferecendo soluções inovadoras em diversos setores. Eis alguns exemplos atuais do uso de blockchain no dia-a-dia:
 
@@ -101,7 +101,7 @@ $\color{red}\large{\textsf{Algumas criptomoedas ganharam valor significativo ap�
 
 É importante notar que estas valorizações são influenciadas por múltiplos fatores, não apenas pela adoção em países específicos, e o mercado de criptomoedas é altamente volátil, e os valores podem flutuar significativamente num curto espaço de tempo.
 
-## $\color{Yellow}{\textsf{Tipos de moedas digitais}}$
+## $\color{Cyan}{\textsf{Tipos de moedas digitais}}$
 
 Outros tipos de moedas digitais e criptomoedas além das já mencionadas. Alguns tipos adicionais incluem:
 
@@ -117,7 +117,7 @@ Outros tipos de moedas digitais e criptomoedas além das já mencionadas. Alguns
 
 Cada tipo de criptomoeda ou token digital tem características e usos específicos, contribuindo para a diversidade e complexidade do ecossistema cripto.
 
-## $\color{Yellow}{\textsf{Como Criar uma criptomoeda}}$
+## $\color{Cyan}{\textsf{Como Criar uma criptomoeda}}$
 
 Para criar uma criptomoeda, é necessário seguir vários passos importantes:
 
@@ -149,7 +149,7 @@ Lembre-se que criar uma criptomoeda é um processo complexo que requer conhecime
 
 ** deixa de ser uma criptomoeda e passa a ser um token.
 
-## $\color{Yellow}{\textsf{Criptomoeda vs Token}}$
+## $\color{Cyan}{\textsf{Criptomoeda vs Token}}$
 
 Distinção fundamental entre criptomoedas e tokens:
 
@@ -170,7 +170,7 @@ Principais diferenças:
 É importante notar que, embora esta seja a distinção geral, existem exceções e o ecossistema cripto está em constante evolução.
 
 
-## $\color{Yellow}{\textsf{Exemplos}}$
+## $\color{Cyan}{\textsf{Exemplos}}$
 
 
 $\color{red}\large{\textsf{Tipos de moedas digitais e criptomoedas:}}$ 
@@ -221,9 +221,9 @@ $\color{red}\large{\textsf{Tipos de moedas digitais e criptomoedas:}}$
 - Aave
 - Compound
 
-## $\color{Yellow}{\textsf{Perguntas e Respostas}}$
+## $\color{Cyan}{\textsf{Perguntas e Respostas}}$
 
-#### $\textcolor{Yellow}{\textsf{Uma criptomoeda é um item digital, e que esse item pode ser adquirido numa corretora convertendo FIAT nesse item?}}$
+#### $\textcolor{Cyan}{\textsf{Uma criptomoeda é um item digital, e que esse item pode ser adquirido numa corretora convertendo FIAT nesse item?}}$
 
 Sim. Vou explicar em mais detalhe:
 
@@ -238,7 +238,7 @@ Sim. Vou explicar em mais detalhe:
 
 É importante notar que, embora este seja o método mais comum, existem outras formas de adquirir criptomoedas, como mineração ou recebendo como pagamento por bens ou serviços.
 
-#### $\textcolor{Yellow}{\textsf{Como funciona o processo de mineração de criptomoedas e qual é a sua importância?}}$
+#### $\textcolor{Cyan}{\textsf{Como funciona o processo de mineração de criptomoedas e qual é a sua importância?}}$
 
 O processo de mineração de criptomoedas funciona da seguinte forma:
 
@@ -258,7 +258,7 @@ A importância da mineração de criptomoedas inclui:
 
 A mineração é, portanto, fundamental para o funcionamento, segurança e expansão das redes de criptomoedas baseadas em proof of work.
 
-#### $\textcolor{Yellow}{\textsf{Quais são os principais fatores que influenciam o valor e a volatilidade das criptomoedas?}}$
+#### $\textcolor{Cyan}{\textsf{Quais são os principais fatores que influenciam o valor e a volatilidade das criptomoedas?}}$
 
 Os principais fatores que influenciam o valor e a volatilidade das criptomoedas são:
 
@@ -274,7 +274,7 @@ Os principais fatores que influenciam o valor e a volatilidade das criptomoedas 
 
 Estes fatores interagem de forma complexa, contribuindo para a conhecida volatilidade do mercado de criptomoedas.
 
-#### $\textcolor{Yellow}{\textsf{Que valor em euros existe investidos nas criptomoedas?}}$
+#### $\textcolor{Cyan}{\textsf{Que valor em euros existe investidos nas criptomoedas?}}$
 
 Não há dados específicos sobre o valor total em euros investido em criptomoedas. Os resultados focam principalmente em previsões de preços e recomendações de investimento para 2025, mas não mencionam um valor total investido no mercado de criptomoedas em euros.
 No entanto, algumas informações relevantes sobre o mercado de criptomoedas incluem:
@@ -286,7 +286,7 @@ No entanto, algumas informações relevantes sobre o mercado de criptomoedas inc
 
 Estas projeções indicam um crescimento significativo no mercado de criptomoedas, mas não fornecem um valor específico em euros atualmente investido.
 
-#### $\textcolor{Yellow}{\textsf{Como a regulamentação europeia MiCA afetará o mercado de criptomoedas?}}$
+#### $\textcolor{Cyan}{\textsf{Como a regulamentação europeia MiCA afetará o mercado de criptomoedas?}}$
 
 A regulamentação europeia MiCA (Markets in Crypto-Assets) terá um impacto significativo no mercado de criptomoedas de várias maneiras:
 
@@ -300,7 +300,7 @@ A regulamentação europeia MiCA (Markets in Crypto-Assets) terá um impacto sig
 
 Em suma, o MiCA está destinado a transformar o mercado de criptomoedas na União Europeia, promovendo um ambiente mais seguro e confiável que pode impulsionar tanto a adoção quanto a inovação no setor.
 
-#### $\textcolor{Yellow}{\textsf{Mas não ira MiCA controlar mais os investidores? não será esse o objetivo da EU para poder cobrar impostos?}}$ 
+#### $\textcolor{Cyan}{\textsf{Mas não ira MiCA controlar mais os investidores? não será esse o objetivo da EU para poder cobrar impostos?}}$ 
 
 Sim, a regulamentação MiCA (Markets in Crypto-Assets) da União Europeia visa aumentar o controle sobre o mercado de criptomoedas, e um dos seus objetivos é facilitar a tributação. Aqui estão alguns pontos importantes sobre como isso pode afetar os investidores:
 
@@ -312,7 +312,7 @@ Sim, a regulamentação MiCA (Markets in Crypto-Assets) da União Europeia visa 
 
 Portanto, enquanto o MiCA pode ser visto como um meio de aumentar o controle governamental sobre as criptomoedas e facilitar a cobrança de impostos.
 
-####  $\textcolor{Yellow}{\textsf{Posso fazer negócios com uma exchange fora da União Europeia sem estar sujeito às regras do MiCA?}}$
+####  $\textcolor{Cyan}{\textsf{Posso fazer negócios com uma exchange fora da União Europeia sem estar sujeito às regras do MiCA?}}$
 
 Sim, você pode fazer negócios com uma exchange fora da União Europeia sem estar sujeito às regras do MiCA. Aqui estão alguns pontos a considerar:
 
