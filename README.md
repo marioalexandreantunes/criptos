@@ -341,5 +341,94 @@ Aqui estão 10 dicas para se iniciar no mundo dos investidores em criptomoedas:
 
 Seguir essas dicas pode ajudá-lo a navegar no mundo das criptomoedas com mais segurança e confiança.
 
+# $\color{Orange}{\textsf{Noticias}}$
+
+Aqui estão 5 sites para acompanhar notícias sobre ativos digitais e criptomoedas:
+
+1. CoinDesk - Uma plataforma respeitada com mais de 50 jornalistas especializados em criptografia e uma média de 13 milhões de visitantes mensais.
+2. Cointelegraph - Um site independente de notícias criado em 2013, disponível em vários idiomas, incluindo português. Oferece cobertura abrangente sobre fintech, blockchain e Bitcoin.
+3. InfoMoney - Um site brasileiro que oferece uma seção exclusiva para criptomoedas, com notícias atualizadas e análises do mercado de ativos digitais.
+4. Portal do Bitcoin - Considerado líder no Brasil em notícias sobre Bitcoin, criptoativos e blockchain, oferecendo conteúdo de alta qualidade.
+5. Livecoins - Um portal brasileiro independente fundado em 2017, focado em notícias sobre blockchain e criptoeconomia, com uma equipe formada por entusiastas de tecnologias baseadas em blockchain desde 2012.
+
+Estes sites são reconhecidos por fornecerem informações atualizadas, confiáveis e abrangentes sobre o mercado de criptomoedas e ativos digitais.
+
+
+# $\color{Orange}{\textsf{Exchange EU}}$
+
+Aqui estão 5 corretoras de criptomoedas dentro da União Europeia em 2025:
+
+1. Alpaca Trading - Considerada a melhor corretora de criptomoedas em Portugal em 2024, oferece ótimo serviço de negociação API, negociação gratuita de ações e ETFs, e ferramentas de gráficos fantásticas.
+2. Interactive Brokers - Destaca-se por suas taxas extremamente baixas, ampla gama de produtos e excelentes ferramentas de pesquisa.
+3. Swissquote - Oferece acesso a muitos mercados e produtos, sem taxa de inatividade, e possui um histórico sólido.
+4. Revolut - Apresenta taxas baixas para ações, abertura de conta rápida e fácil, e uma ótima plataforma de negociação móvel. Além disso, paga juros sobre dinheiro não investido.
+5. BitPanda - Escolhida por especialistas como a melhor corretora para negociar criptomoedas, oferece taxas de negociação de 1,49% e uma variedade de ferramentas de gráficos e análises.
+
+Estas corretoras se destacam por oferecerem uma combinação de baixas taxas, variedade de criptomoedas, ferramentas avançadas de negociação e segurança para os investidores europeus.
+
+# $\color{Orange}{\textsf{Exchange fora MiCA}}$
+
+Com base nas informações disponíveis, aqui estão cinco corretoras de criptomoedas que operam fora da regulamentação MiCA (Markets in Crypto-Assets) da União Europeia:
+
+1. Binance - Uma das maiores e mais populares corretoras de criptomoedas do mundo, oferecendo mais de 300 criptomoedas e taxas de transação baixas. A Binance opera sob a lei de Hong Kong, fora dos mercados desenvolvidos.
+2. Coinbase - Uma das corretoras mais conhecidas nos Estados Unidos, regulamentada nos EUA e não sob a MiCA. Oferece uma interface fácil de usar, ideal para iniciantes.
+3. Kraken - Uma das exchanges mais antigas e respeitadas do mercado, fundada em 2011. Conhecida por sua segurança e confiabilidade, oferece uma ampla gama de criptomoedas e ferramentas avançadas de negociação.
+4. KuCoin - Popular especialmente na Ásia, lançada em 2017. Oferece uma grande variedade de criptomoedas e recursos como negociação de futuros, margem e staking.
+5. Crypto.com - Uma plataforma inovadora que oferece não apenas negociação de criptomoedas, mas também uma série de serviços financeiros, como cartões de débito, empréstimos e staking.
+
+Estas corretoras operam fora da jurisdição da MiCA, oferecendo uma variedade de serviços e criptomoedas. No entanto, é importante notar que a falta de regulamentação MiCA pode implicar diferentes níveis de proteção ao consumidor e supervisão regulatória.
+
+# $\color{Orange}{\textsf{Outras Exchanges}}$
+
+Aqui estão + 5 exchanges:
+
+1. Bitunix - Destaca-se por oferecer baixas taxas de negociação, suporte a mais de 300 criptomoedas e altos limites de retirada sem KYC (Know Your Customer).
+2. BloFin - Uma exchange relativamente nova que oferece negociação de futuros com alavancagem de 150x, acesso a 300 moedas para negociação à vista e taxas competitivas.
+3. CoinW (assumindo que se refere à CoinEx mencionada nos resultados) - Oferece mais de 700 altcoins, taxas competitivas e uma interface fácil de usar tanto para iniciantes quanto para traders experientes.
+4. WEEX - Fundada em 2017, tem mais de 5 milhões de clientes registados e permite saques de até 500.000 USD diariamente sem KYC.
+5. KuCoin - Popular especialmente na Ásia, oferece uma grande variedade de criptomoedas e recursos como negociação de futuros, margem e staking.
+
+Estas exchanges compartilham características como ampla seleção de criptomoedas, taxas competitivas e, em alguns casos, a possibilidade de operar sem KYC ou com limites de retirada elevados.
+
+
+# $\color{Orange}{\textsf{Vocabulário}}$
+
+Aqui está uma lista de palavras usadas no mundo cripto:
+
+1. Blockchain: Livro-razão digital público onde todas as transações são registadas de forma segura e transparente.
+2. Carteira: Aplicação digital para guardar e gerir criptomoedas, como uma carteira tradicional para dinheiro físico.
+3. Altcoin: Qualquer criptomoeda que não seja Bitcoin, como se fossem "moedas alternativas".
+4. HODL: Estratégia de manter criptomoedas a longo prazo, resistindo à tentação de vender.
+5. DeFi: Finanças descentralizadas, sistemas financeiros que funcionam sem intermediários tradicionais.
+6. NFT: Token não fungível, representação digital única de um item, como uma obra de arte digital.
+7. Mineração: Processo de validar transações e criar novas moedas, como "extrair" moedas digitais.
+8. Halving: Evento que reduz pela metade a recompensa de mineração, ocorrendo periodicamente.
+9. Fork: Divisão de uma criptomoeda em duas versões diferentes, como uma bifurcação numa estrada.
+10. Gas: Taxa paga para realizar transações na rede Ethereum, como combustível para um carro.
+11. Staking: Bloquear criptomoedas para apoiar a rede e ganhar recompensas, semelhante a um depósito a prazo.
+12. Whale: Investidor que possui grande quantidade de criptomoedas, podendo influenciar o mercado.
+13. FUD: Medo, incerteza e dúvida; táticas para criar pânico no mercado.
+14. FOMO: Medo de perder oportunidades, levando a decisões de investimento impulsivas.
+15. Airdrop: Distribuição gratuita de criptomoedas, como amostras grátis num supermercado.
+16. ICO: Oferta inicial de moedas, forma de angariar fundos para novos projetos cripto.
+17. Smart Contract: Contrato digital auto-executável, como um contrato tradicional, mas automático e sem intermediários.
+18. Pump and Dump: Esquema de manipulação de preços, inflacionando artificialmente o valor para depois vender.
+19. Cold Wallet: Carteira offline para armazenamento seguro de criptomoedas, como um cofre digital.
+20. Hot Wallet: Carteira online conectada à internet, conveniente para transações frequentes, mas menos segura.
+21. DEX: Exchange descentralizada, plataforma de negociação sem intermediários centrais.
+22. Yield Farming: Estratégia para maximizar retornos em DeFi, como cultivar rendimentos financeiros.
+23. Tokenização: Processo de converter ativos reais em tokens digitais, como digitalizar propriedades.
+24. Sidechain: Blockchain secundária conectada à principal, como uma via paralela numa autoestrada.
+25. Oracle: Ponte entre dados do mundo real e smart contracts, como um mensageiro digital confiável.
+26. KYC: "Conheça o seu cliente", processo de verificação de identidade em exchanges.
+27. Bear Market: Período de queda prolongada nos preços, como um urso a atacar o mercado.
+28. Bull Market: Período de alta prolongada nos preços, como um touro a empurrar o mercado para cima.
+29. Hash Rate: Velocidade de processamento da rede de mineração, como a potência de um motor.
+30. Stablecoin: Criptomoeda com valor estável, geralmente atrelado a uma moeda fiduciária.
+31. P2P: Transações diretas entre pessoas, sem intermediários, como trocar diretamente com um amigo.
+32. ATH: "All-Time High", o preço mais alto já atingido por uma criptomoeda.
+33. Short: Aposta na queda do preço de uma criptomoeda, como vender algo que não se possui esperando comprar mais barato depois.
+34. Paper Wallet: Tipo de cold wallet onde as chaves são impressas em papel, como guardar dinheiro debaixo do colchão.
+35. Hardware Wallet: Dispositivo físico para armazenar criptomoedas offline, oferecendo alta segurança.
 
 
