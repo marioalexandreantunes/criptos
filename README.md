@@ -359,6 +359,25 @@ Estes sites são reconhecidos por fornecerem informações atualizadas, confiáv
 [Portal do Bitcoin]: https://portaldobitcoin.uol.com.br
 [Livecoins]: https://livecoins.com.br/
 
+# $\color{Orange}{\textsf{Preços}}$
+
+Aqui estão 5 dos sites utilizados globalmente pela comunidade cripto, que oferecem valores atualizados de criptomoedas e permitem configurar notificações para alertas de alta ou baixa:
+
+1. [CoinMarketCap] - Um dos sites de referência para investidores de criptomoedas, oferecendo uma lista completa de todas as moedas existentes, suas capitalizações de mercado e rankings baseados na capitalização.
+2. [Binance] - Uma das maiores exchanges de criptomoedas do mundo, fundada em 2017. Permite negociações e oferece um catálogo diversificado de criptomoedas, além de notificações personalizáveis.
+3. [Coinbase] - Uma plataforma líder que oferece alertas de preços para os ativos na sua lista de favoritos. As notificações podem ser recebidas através de notificações push ou diretamente no aplicativo.
+4. [CryptoView] - Uma plataforma abrangente que oferece scanners de cripto e alertas personalizáveis para preço, RSI, volume e explosões de preço. Permite definir limites de compra e venda e receber notificações em tempo real.
+5. [Investing.com] - Um dos sites mais completos para acompanhar o desempenho de ativos e novidades do mercado financeiro, incluindo criptomoedas. Oferece informações constantemente atualizadas e alertas personalizáveis.
+
+Estas plataformas são amplamente reconhecidas e utilizadas pela comunidade cripto global, oferecendo uma variedade de ferramentas para manter os investidores informados sobre as flutuações do mercado e auxiliar na tomada de decisões de investimento.
+
+[CoinMarketCap]: https://coinmarketcap.com/
+[Binance]: https://www.binance.com/
+[Coinbase]: https://www.coinbase.com/
+[CryptoView]: https://www.cryptoview.io/
+[Investing.com]: https://www.investing.com/
+
+
 # $\color{Orange}{\textsf{Exchange EU}}$
 
 Aqui estão 5 corretoras de criptomoedas dentro da União Europeia em 2025:
