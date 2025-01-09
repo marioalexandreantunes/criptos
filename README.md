@@ -63,7 +63,7 @@ Em resumo, uma criptomoeda é um tipo de dinheiro que existe apenas no mundo dig
 
 Quando uma criptomoeda é criada, inicialmente ela não tem valor intrínseco. 
 
-$\color{red}\large{\textsf{O processo de ganhar valor é gradual e depende de vários fatores. Vou explicar usando algumas analogias:}}$ 
+$\color{red}\large{\textsf{O processo de ganhar valor é gradual e depende de vários fatores:}}$ 
 
 1. Como um novo jogo:
    Imagine que cria um novo jogo de cartas. No início, só você conhece as regras e tem as cartas. Não tem valor para ninguém além de si.
@@ -91,7 +91,8 @@ $\color{red}\large{\textsf{Uma criptomoeda ganha valor através de vários fator
 7. Regulamentação: As políticas governamentais e regulamentações podem influenciar positiva ou negativamente o valor das criptomoedas.
 8. Capitalização de mercado: Este indicador, calculado multiplicando o preço pelo número de moedas em circulação, é frequentemente usado para comparar o valor relativo entre diferentes criptomoedas.
 
-$\color{red}\large{\textsf{Algumas criptomoedas ganharam valor significativo após a adoção de blockchain em transações em certos países:}}$ 
+$\color{red}\large{\textsf{Algumas criptomoedas ganharam valor significativo após a adoção de blockchain em transações}}$ 
+ $\color{red}\large{\textsf{em certos países:}}$
 
 1. Bitcoin (BTC): Registou uma valorização de 137% em 2024, atingindo US$ 101.711. A sua adoção como moeda legal em El Salvador em 2021 contribuiu para este crescimento.
 2. Ethereum (ETH): Valorizou 63,47% em 2024, chegando a US$ 3.279. O seu uso em contratos inteligentes e aplicações descentralizadas em vários países impulsionou este aumento.
