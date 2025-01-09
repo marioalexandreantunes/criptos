@@ -345,14 +345,19 @@ Seguir essas dicas pode ajudá-lo a navegar no mundo das criptomoedas com mais s
 
 Aqui estão 5 sites para acompanhar notícias sobre ativos digitais e criptomoedas:
 
-1. CoinDesk - Uma plataforma respeitada com mais de 50 jornalistas especializados em criptografia e uma média de 13 milhões de visitantes mensais.
-2. Cointelegraph - Um site independente de notícias criado em 2013, disponível em vários idiomas, incluindo português. Oferece cobertura abrangente sobre fintech, blockchain e Bitcoin.
-3. InfoMoney - Um site brasileiro que oferece uma seção exclusiva para criptomoedas, com notícias atualizadas e análises do mercado de ativos digitais.
-4. Portal do Bitcoin - Considerado líder no Brasil em notícias sobre Bitcoin, criptoativos e blockchain, oferecendo conteúdo de alta qualidade.
-5. Livecoins - Um portal brasileiro independente fundado em 2017, focado em notícias sobre blockchain e criptoeconomia, com uma equipe formada por entusiastas de tecnologias baseadas em blockchain desde 2012.
+1. [CoinDesk] - Uma plataforma respeitada com mais de 50 jornalistas especializados em criptografia e uma média de 13 milhões de visitantes mensais.
+2. [Cointelegraph] - Um site independente de notícias criado em 2013, disponível em vários idiomas, incluindo português. Oferece cobertura abrangente sobre fintech, blockchain e Bitcoin.
+3. [InfoMoney] - Um site brasileiro que oferece uma seção exclusiva para criptomoedas, com notícias atualizadas e análises do mercado de ativos digitais.
+4. [Portal do Bitcoin] - Considerado líder no Brasil em notícias sobre Bitcoin, criptoativos e blockchain, oferecendo conteúdo de alta qualidade.
+5. [Livecoins] - Um portal brasileiro independente fundado em 2017, focado em notícias sobre blockchain e criptoeconomia, com uma equipe formada por entusiastas de tecnologias baseadas em blockchain desde 2012.
 
 Estes sites são reconhecidos por fornecerem informações atualizadas, confiáveis e abrangentes sobre o mercado de criptomoedas e ativos digitais.
 
+[CoinDesk]: https://www.coindesk.com/
+[Cointelegraph]: https://br.cointelegraph.com
+[InfoMoney]: https://www.infomoney.com.br/criptomoedas/
+[Portal do Bitcoin]: https://portaldobitcoin.uol.com.br
+[Livecoins]: https://livecoins.com.br/
 
 # $\color{Orange}{\textsf{Exchange EU}}$
 
@@ -368,7 +373,7 @@ Estas corretoras se destacam por oferecerem uma combinação de baixas taxas, va
 
 # $\color{Orange}{\textsf{Exchange fora MiCA}}$
 
-Com base nas informações disponíveis, aqui estão cinco corretoras de criptomoedas que operam fora da regulamentação MiCA (Markets in Crypto-Assets) da União Europeia:
+Aqui estão cinco corretoras de criptomoedas que operam fora da regulamentação MiCA (Markets in Crypto-Assets) da União Europeia:
 
 1. Binance - Uma das maiores e mais populares corretoras de criptomoedas do mundo, oferecendo mais de 300 criptomoedas e taxas de transação baixas. A Binance opera sob a lei de Hong Kong, fora dos mercados desenvolvidos.
 2. Coinbase - Uma das corretoras mais conhecidas nos Estados Unidos, regulamentada nos EUA e não sob a MiCA. Oferece uma interface fácil de usar, ideal para iniciantes.
