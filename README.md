@@ -161,23 +161,32 @@ Distinção fundamental entre criptomoedas e tokens:
 
 1. Criptomoedas:
    - Operam na sua própria blockchain independente
-   - Exemplos: Bitcoin, Ethereum, Litecoin
+   - Exemplos: Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Solana (SOL), XRP (XRP) ou Cardano (ADA)
 2. Tokens:
    - Criados e operam em blockchains já existentes
    - Utilizam infraestruturas como Ethereum, Binance Smart Chain, ou Solana
    - Criados através de contratos inteligentes na blockchain hospedeira
+   - Exemplos : Tether (USDT), Chainlink (LINK), Uniswap (UNI), Aave (AAVE) ou Shiba Inu (SHIB)
 
 Principais diferenças:
 
-- Complexidade: Criar uma criptomoeda é mais complexo, pois requer desenvolver uma nova blockchain
-- Funcionalidade: Criptomoedas são principalmente usadas para transações, enquanto tokens podem ter várias funções (utilidade, governança, segurança)
-- Tecnologia: Criptomoedas têm sua própria infraestrutura blockchain, tokens usam blockchains existentes
+Criptomoeda: Uma criptomoeda é, essencialmente, dinheiro digital. Ela pode ser usada para transações financeiras diretas, investimentos ou até como uma reserva de valor. O Bitcoin, por exemplo, é frequentemente visto como uma "reserva de valor" ou ouro digital.
+Criptomoedas, como o Bitcoin (BTC) ou Ethereum (ETH), podem ser comparadas a moedas fiduciárias (como o euro ou o dólar), porque funcionam principalmente como meios de troca e reservas de valor. Alguns países começaram a explorar o Bitcoin (BTC) como uma reserva de valor, El Salvador, República Centro-Africana, Venezuela, Tanzânia, Paraguai. 
+Paises que em 2025 podem fazer reserva em BTC:
+1. Japão: Um parlamentar japonês solicitou formalmente que o governo inicie discussões sobre a criação de uma reserva estratégica de Bitcoin.
+2. Rússia: O presidente Vladimir Putin elogiou o Bitcoin e defendeu o direito dos países de adotá-lo como forma de independência econômica.
+3. Brasil: Um projeto de lei foi apresentado na Câmara dos Deputados para obrigar o governo federal a construir uma reserva de Bitcoin.
+4. Polônia: O país foi mencionado como um dos que iniciaram discussões sobre a possibilidade de criar reservas estratégicas de Bitcoin.
+5. Argentina: Especula-se que o país possa aderir brevemente à ideia de criar uma reserva em Bitcoin[5].
+6. Suriname: Também é mencionado como um país que pode considerar a criação de uma reserva em Bitcoin em breve.
+7. EUA: Trump confirmou sua intenção de criar uma "reserva estratégica de bitcoin" semelhante à reserva estratégica de petróleo dos EUA.
+
+Token: Os tokens podem ter funções específicas, como representar ativos (por exemplo, NFTs), governar uma plataforma (como Uniswap (UNI), que permite votar em propostas) ou representar a participação em protocolos de finanças descentralizadas (DeFi). Tokens podem também ser usados para recompensas em sistemas específicos (como o BAT no Brave browser).
+Tokens podem ser "comparados" a ações de uma empresa, especialmente em termos de governança ou participação em um projeto ou protocolo.
 
 É importante notar que, embora esta seja a distinção geral, existem exceções e o ecossistema cripto está em constante evolução.
 
-
 ## $\color{Cyan}{\textsf{Exemplos}}$
-
 
 $\color{red}\large{\textsf{Tipos de moedas digitais e criptomoedas:}}$ 
 
