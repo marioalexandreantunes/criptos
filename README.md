@@ -4,6 +4,13 @@
 > "The blockchain is the biggest innovation in computer science, the foundation of the second era of the internet."  
 > — **Don Tapscott**
 
+## $\color{Cyan}{\textsf{Livro-razão}}$
+
+O termo **"livro-razão"** pode ser mais familiarmente conhecido como **"registo contábil"** ou **"livro de registo"**. Embora o termo "livro-razão" seja técnico, os termos alternativos têm uma conotação mais acessível, especialmente no contexto de registros financeiros ou transações.
+
+Por exemplo, em contextos informais, pode-se referir a ele como o **"registo de transações"** ou **"registo de contas"**, facilitando a compreensão para pessoas sem conhecimentos técnicos em contabilidade ou blockchain.
+
+Um **livro-razão** é como um **caderno de anotações** onde se registram todas as transações de um sistema. Imagine que você tem um **livro de contas** onde anota tudo o que comprou e vendeu, como se fosse um **controle financeiro pessoal**, mas no caso do livro-razão, ele é **digital** e usado para registrar tudo o que acontece em uma **rede de blockchain** de forma pública e segura, garantindo que ninguém altere o que já foi registrado.
 
 O blockchain é como um livro-razão (livro que agrupa, por contas, os lançamentos registados no livro-diário; razão), que não pode ser alterado. Imagine uma longa cadeia, onde cada elo representa uma transação ou informação. Esta cadeia é especial porque:
 
