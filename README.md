@@ -1,5 +1,10 @@
 # $\color{Orange}{\textsf{Blockchain}}$
 
+
+> "The blockchain is the biggest innovation in computer science, the foundation of the second era of the internet."  
+> — **Don Tapscott**
+
+
 O blockchain é como um livro-razão (livro que agrupa, por contas, os lançamentos registados no livro-diário; razão), que não pode ser alterado. Imagine uma longa cadeia, onde cada elo representa uma transação ou informação. Esta cadeia é especial porque:
 
 1. É distribuída: Pense numa receita de bolo que, em vez de estar apenas na sua cozinha, está em todas as cozinhas do bairro ao mesmo tempo. Se alguém tentar mudar a receita numa cozinha, todas as outras saberão.
