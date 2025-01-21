@@ -513,12 +513,12 @@ Notas importantes:
 - "Rede dependente" significa que a taxa varia conforme a rede blockchain utilizada para a transferência.
 - É recomendável verificar as taxas atualizadas diretamente nos sites das corretoras, pois elas podem mudar com frequência.
 
-O envio de USDT/C é considerado "rede dependente" devido a algumas razões importantes:
+É considerado "rede dependente" devido a algumas razões importantes:
 
-1. Múltiplas blockchains: O USDC opera em várias redes blockchain diferentes, como Ethereum, Solana e Avalanche[1][4].
-2. Variação nas taxas: As taxas de transferência variam significativamente dependendo da rede escolhida. Por exemplo, na rede Solana, a taxa é geralmente de $0,00025, enquanto na Avalanche pode chegar a $0,5[1].
-3. Congestionamento da rede: As taxas e a velocidade das transações podem ser afetadas pelo congestionamento da rede específica em um determinado momento[4].
-4. Estrutura da blockchain: Cada rede blockchain tem sua própria estrutura e mecanismo de consenso, o que afeta como as transações são processadas e as taxas são calculadas[5].
-5. Interoperabilidade: Algumas plataformas, como o Mercado Bitcoin, permitem depositar USDC em uma rede e sacar em outra, o que pode afetar as taxas e o processamento[5].
+1. Múltiplas blockchains: O USDC opera em várias redes blockchain diferentes, como Ethereum, Solana e Avalanche.
+2. Variação nas taxas: As taxas de transferência variam significativamente dependendo da rede escolhida. Por exemplo, na rede Solana, a taxa é geralmente de $0,00025, enquanto na Avalanche pode chegar a $0,5.
+3. Congestionamento da rede: As taxas e a velocidade das transações podem ser afetadas pelo congestionamento da rede específica em um determinado momento.
+4. Estrutura da blockchain: Cada rede blockchain tem sua própria estrutura e mecanismo de consenso, o que afeta como as transações são processadas e as taxas são calculadas.
+5. Interoperabilidade: Algumas plataformas, como o Mercado Bitcoin, permitem depositar USDC em uma rede e sacar em outra, o que pode afetar as taxas e o processamento.
 
-Portanto, ao enviar USDC, é crucial considerar a rede blockchain escolhida, pois isso impactará diretamente os custos e a velocidade da transação.
+Portanto, ao enviar USDC, é crucial considerar a rede blockchain escolhida, pois isso impactará diretamente os custos e a velocidade da transação. É importtante saber que redes usa a sua wallet e poder *selecionar rede correcta*!
