@@ -490,4 +490,35 @@ Aqui está uma lista de palavras usadas no mundo cripto:
 34. Paper Wallet: Tipo de cold wallet onde as chaves são impressas em papel, como guardar dinheiro debaixo do colchão.
 35. Hardware Wallet: Dispositivo físico para armazenar criptomoedas offline, oferecendo alta segurança.
 
+# $\color{Orange}{\textsf{Corretoras exemplos }}$
 
+Aqui está uma tabela comparativa das corretoras algumas corretoras:
+
+| Corretora | Taxa de Depósito SEPA | Taxa de Compra USDC/USDT (Cartão) | Taxa de Compra Criptos (FIAT) | Taxa de Envio XRP | Taxa de Envio Solana | Taxa de Envio BTC | Taxa de Envio USDT/C |
+|-----------|----------------------|----------------------------------|------------------------------|-------------------|----------------------|-------------------|----------------------|
+| Trade Republic | Grátis | Não disponível | 1% | Não disponível | Não disponível | Não disponível | Não disponível |
+| Revolut | Grátis | 2,5% | Até 1,99% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Varia |
+| Coinbase | Grátis | 3,99% | Até 1,49% | 0,01 XRP | 0,01 SOL | Rede dependente | Rede dependente |
+| MEXC | 1,10 € | 3,5% + 0,3 € | 0,1% a 0,2% | 0,2 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
+| KuCoin | 1,00 € | 3,5% a 5% | 0,1% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
+| Bitunix | Variável | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
+| CoinW | Não disponível | Não disponível | 0,2% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
+| Tapbit | Não disponível | Não disponível | 0,1% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
+| Bybit | 1,00 € (estimado) | 1,5% a 3% | 0,1% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
+
+Notas importantes:
+- As taxas podem variar dependendo do volume de negociação e do status da conta do usuário.
+- Algumas corretoras não oferecem todos os serviços mencionados ou não têm informações disponíveis sobre certas taxas.
+- As taxas de envio para carteiras externas podem flutuar com base na congestão da rede.
+- "Rede dependente" significa que a taxa varia conforme a rede blockchain utilizada para a transferência.
+- É recomendável verificar as taxas atualizadas diretamente nos sites das corretoras, pois elas podem mudar com frequência.
+
+O envio de USDT/C é considerado "rede dependente" devido a algumas razões importantes:
+
+1. Múltiplas blockchains: O USDC opera em várias redes blockchain diferentes, como Ethereum, Solana e Avalanche[1][4].
+2. Variação nas taxas: As taxas de transferência variam significativamente dependendo da rede escolhida. Por exemplo, na rede Solana, a taxa é geralmente de $0,00025, enquanto na Avalanche pode chegar a $0,5[1].
+3. Congestionamento da rede: As taxas e a velocidade das transações podem ser afetadas pelo congestionamento da rede específica em um determinado momento[4].
+4. Estrutura da blockchain: Cada rede blockchain tem sua própria estrutura e mecanismo de consenso, o que afeta como as transações são processadas e as taxas são calculadas[5].
+5. Interoperabilidade: Algumas plataformas, como o Mercado Bitcoin, permitem depositar USDC em uma rede e sacar em outra, o que pode afetar as taxas e o processamento[5].
+
+Portanto, ao enviar USDC, é crucial considerar a rede blockchain escolhida, pois isso impactará diretamente os custos e a velocidade da transação.
