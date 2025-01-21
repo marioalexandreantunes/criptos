@@ -492,16 +492,16 @@ Aqui está uma lista de palavras usadas no mundo cripto:
 
 # $\color{Orange}{\textsf{Corretoras exemplos }}$
 
-Aqui está uma tabela comparativa das corretoras algumas corretoras:
+Aqui está uma tabela comparativa de algumas corretoras:
 
 | Corretora | Taxa de Depósito SEPA | Taxa de Compra USDC/USDT (Cartão) | Taxa de Compra Criptos (FIAT) | Taxa de Envio XRP | Taxa de Envio Solana | Taxa de Envio BTC | Taxa de Envio USDT/C |
 |-----------|----------------------|----------------------------------|------------------------------|-------------------|----------------------|-------------------|----------------------|
 | Trade Republic | Grátis | Não disponível | 1% | Não disponível | Não disponível | Não disponível | Não disponível |
-| Revolut | Grátis | 2,5% | Até 1,99% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Varia |
+| Revolut | Grátis | 2,5% | Até 1,49% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Varia |
 | Coinbase | Grátis | 3,99% | Até 1,49% | 0,01 XRP | 0,01 SOL | Rede dependente | Rede dependente |
 | MEXC | 1,10 € | 3,5% + 0,3 € | 0,1% a 0,2% | 0,2 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
 | KuCoin | 1,00 € | 3,5% a 5% | 0,1% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
-| Bitunix | Variável | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível | Não disponível |
+| Bitunix | Variável | Não disponível | 0,08% | Não disponível | Não disponível | Não disponível | Não disponível |
 | CoinW | Não disponível | Não disponível | 0,2% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
 | Tapbit | Não disponível | Não disponível | 0,1% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
 | Bybit | 1,00 € (estimado) | 1,5% a 3% | 0,1% | 0,25 XRP | 0,01 SOL | 0,0005 BTC | Rede dependente |
