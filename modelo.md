@@ -1,5 +1,29 @@
 # Work in progress
 
+Plano para desenvolver um modelo de classificação binária que prevê se o preço de uma criptomoeda, como o BTC/USDT, aumentará ou diminuirá em pelo menos 5% dentro de um intervalo de 4 a 6 horas. O plano está estruturado e cobre os seguintes pontos principais:
+
+1. **Definição do Problema e Estratégia**: Estabelece o objetivo de prever variações de preço significativas, tratando-o como um problema de classificação binária.
+
+2. **Coleta e Pré-Processamento de Dados**: Sugere fontes de dados como APIs de exchanges (Binance, Bybit, CoinGecko) para obter dados históricos de preços e volume, além de indicadores técnicos como RSI, MACD e Bandas de Bollinger.
+
+3. **Engenharia de Features**: Inclui exemplos de código em Python utilizando bibliotecas como `pandas` e `ta-lib` para calcular indicadores técnicos e criar novas features.
+
+4. **Definição do Alvo (Target)**: Define a variável alvo como sendo 1 se a variação percentual futura for maior ou igual a 5% dentro do horizonte de 4 a 6 horas, caso contrário, 0.
+
+5. **Tratamento de Classes Desbalanceadas**: Propõe técnicas como oversampling consciente de séries temporais e ajuste de pesos de classe no modelo para lidar com o possível desbalanceamento das classes.
+
+6. **Modelagem**: Recomenda algoritmos como LightGBM, XGBoost e redes neurais temporais (LSTM/Transformers), fornecendo exemplos de código para implementação.
+
+7. **Avaliação do Modelo**: Destaca métricas-chave como precisão, recall e AUC-ROC, além de sugerir a realização de backtesting para avaliar o desempenho do modelo em cenários de trading simulados.
+
+8. **Otimização e Mitigação de Riscos**: Enfatiza a importância da seleção de features e tuning de hiperparâmetros, mencionando o uso de ferramentas como SHAP para interpretação do modelo e Optuna para otimização de hiperparâmetros.
+
+9. **Implementação Prática**: Aborda considerações para monitoramento em tempo real e atualização contínua do modelo, sugerindo o uso de APIs WebSocket para receber dados em tempo real.
+
+Este plano oferece uma abordagem abrangente para o desenvolvimento de um modelo preditivo no contexto de criptomoedas, cobrindo desde a coleta de dados até a implementação prática e monitoramento contínuo. 
+
+---
+
 Vamos construir um modelo de classificação binária para prever variações de preço em crypto, seguindo um plano estruturado e adaptado às particularidades do mercado. Aqui está o passo a passo detalhado:
 
 ---
