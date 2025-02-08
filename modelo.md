@@ -24,7 +24,7 @@ Este plano oferece uma abordagem abrangente para o desenvolvimento de um modelo 
 
 ---
 
-Claro! Posso fornecer-te um exemplo de código em Python que implementa um modelo de classificação binária para prever se o preço de uma criptomoeda variará pelo menos 5% dentro de uma janela de 4 a 6 horas. Este exemplo utiliza uma Rede Neural Recorrente (RNN) com Long Short-Term Memory (LSTM) para capturar padrões temporais nos dados.
+Um projeto de código em Python que implementa um modelo de classificação binária para prever se o preço de uma criptomoeda variará pelo menos 5% dentro de uma janela de 4 a 6 horas. Este exemplo utiliza uma Rede Neural Recorrente (RNN) com Long Short-Term Memory (LSTM) para capturar padrões temporais nos dados.
 
 **Passos principais:**
 
