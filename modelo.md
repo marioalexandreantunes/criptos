@@ -24,186 +24,154 @@ Este plano oferece uma abordagem abrangente para o desenvolvimento de um modelo 
 
 ---
 
-Vamos construir um modelo de classificação binária para prever variações de preço em crypto, seguindo um plano estruturado e adaptado às particularidades do mercado. Aqui está o passo a passo detalhado:
+Claro! Posso fornecer-te um exemplo de código em Python que implementa um modelo de classificação binária para prever se o preço de uma criptomoeda variará pelo menos 5% dentro de uma janela de 4 a 6 horas. Este exemplo utiliza uma Rede Neural Recorrente (RNN) com Long Short-Term Memory (LSTM) para capturar padrões temporais nos dados.
 
----
+**Passos principais:**
 
-### **1. Definição do Problema e Estratégia**
-- **Objetivo**: Prever se o preço de uma crypto (ex: BTC/USDT) aumentará ou diminuirá **5% em 4 a 6 horas**.
-- **Classificação Binária**:
-  - Classe 1 (Positiva): Preço varia ≥ 5% dentro de 4-6 horas.
-  - Classe 0 (Negativa): Preço varia < 5% no mesmo período.
-- **Cuidado**: Mercados de crypto são altamente estocásticos – mesmo um modelo bom terá acurácia limitada. Foque em **precisão/recall da classe positiva**.
+1. **Importação das bibliotecas necessárias:**
 
----
+   ```python
+   import numpy as np
+   import pandas as pd
+   from sklearn.preprocessing import StandardScaler
+   from sklearn.model_selection import train_test_split
+   from sklearn.metrics import classification_report
+   from tensorflow.keras.models import Sequential
+   from tensorflow.keras.layers import LSTM, Dense, Dropout
+   from tensorflow.keras.callbacks import EarlyStopping
+   ```
 
-### **2. Coleta e Pré-Processamento de Dados**
-#### **Fontes de Dados**:
-- **APIs de Exchanges**: Binance, Bybit, CoinGecko (dados históricos de preço, volume, ordem book).
-- **Indicadores Técnicos**:
-  - RSI, MACD, Bollinger Bands, Volume, Volatilidade (desvio padrão dos retornos).
-  - Médias móveis (7, 20, 50 períodos).
-- **Dados On-Chain** (opcional): Número de transações, hash rate (para Bitcoin), active addresses.
-- **Janelas Temporais**:
-  - Use candles de **15 minutos** ou **1 hora** para capturar padrões de curto prazo.
+2. **Carregamento e pré-processamento dos dados:**
 
-#### **Engenharia de Features**:
-```python
-import pandas as pd
-import talib
+   - **Carregar os dados:**
 
-# Exemplo: Criar features para cada candle
-df['RSI'] = talib.RSI(df['close'], timeperiod=14)
-df['MACD'], df['MACD_signal'], _ = talib.MACD(df['close'])
-df['volatility'] = df['close'].rolling(24).std()  # Volatilidade de 24 períodos
-```
+     Assumindo que tens um ficheiro CSV com os dados históricos da criptomoeda, incluindo colunas como 'timestamp', 'open', 'high', 'low', 'close', e 'volume'.
 
-#### **Definição do Target**:
-```python
-# Calcular variação percentual nas próximas 4-6 horas
-horizon = 6  # Janela de 6 horas
-df['future_price'] = df['close'].shift(-horizon)
-df['target'] = (df['future_price'].pct_change(horizon) >= 0.05).astype(int)  # 5% de alta
-df.dropna(inplace=True)  # Remover NaN
-```
+     ```python
+     df = pd.read_csv('crypto_data.csv', parse_dates=['timestamp'])
+     df.set_index('timestamp', inplace=True)
+     ```
 
----
+   - **Calcular a variação percentual futura:**
 
-### **3. Tratamento de Classes Desbalanceadas**
-Se a classe 1 (variação ≥5%) for rara (<5% dos dados):
-- **Técnicas para Séries Temporais**:
-  - **Time-Series Aware Oversampling**: Replicar eventos raros com pequenas variações de tempo (ex: copiar o evento e deslocar ±1 candle).
-  - **Pesos de Classe no Modelo**: Penalizar erros na classe minoritária.
-  ```python
-  from sklearn.utils.class_weight import compute_class_weight
+     Calcula a variação percentual do preço de fecho nos próximos 4 a 6 intervalos de tempo (assumindo que cada intervalo é de uma hora).
 
-  class_weights = compute_class_weight('balanced', classes=[0, 1], y=df['target'])
-  model = XGBClassifier(scale_pos_weight=class_weights[1]/class_weights[0])
-  ```
-- **Evite SMOTE Tradicional**: Gera dados sintéticos que quebram a estrutura temporal.
+     ```python
+     future_window = 6  # 6 horas
+     df['future_return'] = df['close'].shift(-future_window) / df['close'] - 1
+     ```
 
----
+   - **Definir o alvo de classificação:**
 
-### **4. Modelagem**
-#### **Algoritmos Recomendados**:
-- **LightGBM/XGBoost**: Lidam bem com desbalanceamento e features não-lineares.
-- **Redes Neurais Temporais (LSTM/Transformers)**: Úteis se houver dados suficientes (>100k amostras).
-- **Ensemble Híbrido**: Combine modelos de série temporal (ex: Prophet) com LightGBM.
+     Cria uma coluna 'target' que é 1 se a variação percentual futura for maior ou igual a 5%, caso contrário, 0.
 
-#### **Exemplo com LightGBM**:
-```python
-import lightgbm as lgb
-from sklearn.model_selection import TimeSeriesSplit
+     ```python
+     threshold = 0.05
+     df['target'] = (df['future_return'] >= threshold).astype(int)
+     ```
 
-# Separar features e target
-X = df.drop(['target', 'future_price', 'close'], axis=1)
-y = df['target']
+   - **Selecionar as features e normalizar:**
 
-# Validação Cruzada Temporal
-tscv = TimeSeriesSplit(n_splits=3)
-for train_idx, test_idx in tscv.split(X):
-    X_train, X_test = X.iloc[train_idx], X.iloc[test_idx]
-    y_train, y_test = y.iloc[train_idx], y.iloc[test_idx]
-    
-    # Treinar modelo
-    model = lgb.LGBMClassifier(
-        class_weight='balanced',
-        objective='binary',
-        metric='auc'
-    )
-    model.fit(X_train, y_train)
-    
-    # Avaliar
-    y_pred = model.predict(X_test)
-    print(classification_report(y_test, y_pred))
-```
+     Utiliza as colunas 'open', 'high', 'low', 'close', e 'volume' como features e normaliza-as.
 
----
+     ```python
+     features = ['open', 'high', 'low', 'close', 'volume']
+     scaler = StandardScaler()
+     df[features] = scaler.fit_transform(df[features])
+     ```
 
-### **5. Avaliação do Modelo**
-#### **Métricas-Chave**:
-- **Precision (Classe 1)**: % de previsões corretas de variação ≥5%.
-- **Recall (Classe 1)**: % de eventos reais de 5% capturados pelo modelo.
-- **AUC-ROC**: Mede a capacidade de distinguir entre as classes.
-- **Matriz de Confusão**: Analise falsos positivos/negativos.
+   - **Remover valores nulos:**
 
-#### **Backtesting**:
-- **Simulação de Trading**: Aplique o modelo em dados históricos com regras de entrada/saída.
-  - Exemplo: Comprar quando o modelo prevê classe 1 e vender após 5% de lucro ou 6 horas.
-- **Métricas Financeiras**:
-  - **Sharpe Ratio**: Risco-retorno.
-  - **Maximum Drawdown**: Perda máxima acumulada.
-  - **Profit Factor**: (Ganhos Totais) / (Perdas Totais).
+     Remove quaisquer linhas com valores nulos resultantes do cálculo da variação futura.
 
----
+     ```python
+     df.dropna(inplace=True)
+     ```
 
-### **6. Otimização e Mitigação de Riscos**
-- **Feature Selection**:
-  - Remova features correlacionadas com `df.corr()`.
-  - Use SHAP para interpretar importância de features:
-  ```python
-  import shap
-  explainer = shap.TreeExplainer(model)
-  shap_values = explainer.shap_values(X_test)
-  shap.summary_plot(shap_values, X_test)
-  ```
-- **Hyperparameter Tuning**:
-  ```python
-  from optuna import create_study
+3. **Preparação dos dados para o modelo LSTM:**
 
-  study = create_study(direction='maximize')
-  study.optimize(objective_function, n_trials=50)  # Otimizar AUC-ROC
-  ```
+   - **Definir a janela de observação:**
 
----
+     Define quantas horas de dados anteriores serão usadas para prever o movimento futuro.
 
-### **7. Implementação Prática**
-- **Monitoramento em Tempo Real**:
-  - Atualize o modelo semanalmente com novos dados.
-  - Use APIs WebSocket para receber dados em tempo real (ex: Binance WebSocket).
-- **Gerenciamento de Risco**:
-  - Defina stop-loss (ex: -3%) e take-profit (5%).
-  - Limite o tamanho das posições com base na confiança do modelo.
+     ```python
+     observation_window = 24  # 24 horas
+     ```
 
----
+   - **Criar sequências de dados:**
 
-### **8. Desafios Comuns e Soluções**
-| **Desafio**                     | **Solução**                                      |
-|---------------------------------|--------------------------------------------------|
-| Overfitting em dados sintéticos | Use validação temporal e evite SMOTE             |
-| Baixo recall da classe 1        | Aumente o peso da classe 1 ou use undersampling  |
-| Alta volatilidade do mercado    | Adicione features de volatilidade recente        |
-| Atraso na execução de ordens    | Teste o modelo em dados com slippage realista    |
+     Cria sequências de dados para alimentar o modelo LSTM.
 
----
+     ```python
+     def create_sequences(data, target, window):
+         X, y = [], []
+         for i in range(len(data) - window):
+             X.append(data[i:i + window])
+             y.append(target[i + window])
+         return np.array(X), np.array(y)
 
-### **Exemplo de Código para Backtesting**
-```python
-# Simulação simplificada de trading
-capital = 10000
-position = 0
+     X, y = create_sequences(df[features].values, df['target'].values, observation_window)
+     ```
 
-for i in range(len(predictions)):
-    if predictions[i] == 1 and position == 0:
-        # Comprar no preço atual
-        position = capital / df['close'].iloc[i]
-        capital = 0
-    elif position > 0:
-        # Vender após 5% de lucro ou 6 horas
-        current_price = df['close'].iloc[i]
-        if current_price >= entry_price * 1.05 or i >= entry_index + 6:
-            capital = position * current_price
-            position = 0
+   - **Dividir os dados em conjuntos de treino e teste:**
 
-print(f"Capital final: ${capital:.2f}")
-```
+     Divide os dados em conjuntos de treino e teste.
 
----
+     ```python
+     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, shuffle=False)
+     ```
 
-### **Conclusão**
-Prever variações de 5% em crypto é um problema difícil, mas viável com:
-- **Features robustas** (volatilidade, volume, indicadores técnicos).
-- **Modelos adaptados a séries temporais** (LightGBM com validação cronológica).
-- **Backtesting rigoroso** com métricas financeiras.
+4. **Construção e treino do modelo LSTM:**
 
-Comece com janelas menores (ex: 1-2 horas) para validar a ideia antes de escalar. Compartilhe mais detalhes do seu dataset para ajustarmos o modelo! 🚀
+   - **Definir o modelo:**
+
+     Cria um modelo sequencial com camadas LSTM e Dropout para evitar overfitting.
+
+     ```python
+     model = Sequential()
+     model.add(LSTM(50, return_sequences=True, input_shape=(observation_window, len(features))))
+     model.add(Dropout(0.2))
+     model.add(LSTM(50))
+     model.add(Dropout(0.2))
+     model.add(Dense(1, activation='sigmoid'))
+     ```
+
+   - **Compilar o modelo:**
+
+     Compila o modelo com o otimizador Adam e a função de perda binária.
+
+     ```python
+     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+     ```
+
+   - **Treinar o modelo:**
+
+     Treina o modelo com early stopping para evitar overfitting.
+
+     ```python
+     early_stopping = EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
+     history = model.fit(X_train, y_train, validation_split=0.2, epochs=50, batch_size=32, callbacks=[early_stopping])
+     ```
+
+5. **Avaliação do modelo:**
+
+   - **Avaliar o desempenho no conjunto de teste:**
+
+     Avalia o modelo no conjunto de teste e imprime um relatório de classificação.
+
+     ```python
+     y_pred = (model.predict(X_test) > 0.5).astype(int)
+     print(classification_report(y_test, y_pred))
+     ```
+
+**Considerações finais:**
+
+- **Dados:** Certifica-te de que tens dados suficientes para treinar o modelo, cobrindo diferentes condições de mercado.
+
+- **Features adicionais:** Considera adicionar indicadores técnicos ou dados de sentimento para melhorar o desempenho do modelo.
+
+- **Validação:** Utiliza técnicas de validação cruzada e backtesting para avaliar a robustez do modelo.
+
+- **Riscos:** Lembra-te de que a negociação de criptomoedas envolve riscos significativos. Testa exaustivamente qualquer modelo antes de o utilizar em cenários de negociação real.
+
+Este é um exemplo básico para te ajudar a começar. Dependendo das especificidades do teu projeto, poderás precisar de ajustar e expandir este código. 
