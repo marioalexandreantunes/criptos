@@ -1,3 +1,5 @@
+# Work in progress
+
 Vamos construir um modelo de classificação binária para prever variações de preço em crypto, seguindo um plano estruturado e adaptado às particularidades do mercado. Aqui está o passo a passo detalhado:
 
 ---
